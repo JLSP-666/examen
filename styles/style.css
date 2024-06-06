@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+    body{
+        background-color: #F2F2F2;
+    }
+    #titulo{
+        text-align: center;
+    }
+    article{
+        display: flex;
+        padding: 14vh;
+        justify-content:center ;
+        align-items: center;
+        align-content: center;
+
+
+    }
+    #imagen-1{
+        width: 100px;
+        align-self: center;
+        display:block;
+        margin:auto;
+    }
+    #titulo{
+        font-size: 40px;
+        padding:10px;
+        color: #B85DA6;
+    }
+    #titulo-1{
+        text-align: center;
+        margin:25px;
+
+    }
+    #texto-1{
+        text-align: center;
+        margin:25px;
+    }
+    #seccion-1{
+        margin: 0px 50px 0px 50px;
+        padding: 50px;
+        width: 289px;
+        height: 400px;
+        border-color:#B85DA6;
+        border-width: 5px;
+        border-style:groove;
+        background-color: #F2F2F2;
+    }
+    #seccion-2{
+        margin: 90px 50px 0px 50px;
+        padding: 50px;
+        width: 289px;
+        height: 400px;
+        border-color:#B85DA6;
+        border-width: 5px;
+        border-style:groove;
+        background-color: #F2F2F2;
+    }
+    footer{
+        text-align: center;
+        color: #B85DA6;
+        margin: 0px 200px 20px 200px;
+    }
+    @media screen and (max-width: 352px) {
+        *{
+            padding: 0px;
+            margin: 0px;
+            }
+            body{
+                background-color: #F2F2F2;
+            }
+            #titulo{
+                text-align: center;
+            }
+            #imagen-1{
+                width: 100px;
+                align-self: center;
+                display:block;
+                margin:auto;
+            }
+            #titulo{
+                font-size: 20px;
+                padding:10px;
+                color: #B85DA6;
+            }
+            #titulo-1{
+                font-size: 20px;
+                text-align: center;
+                margin:10px;
+        
+            }
+            #texto-1{
+                font-size: 15px;
+                text-align: center;
+                margin:25px;
+            }
+            #seccion-1{
+                margin: 50px 50px 0px 50px;
+                padding: 50px;
+                width: 180px;
+                height: 400px;
+                border-color:#B85DA6;
+                border-width: 5px;
+                border-style:groove;
+                background-color: #F2F2F2;
+            }
+            #seccion-2{
+                margin: 50px 50px 0px 50px;
+                padding: 50px;
+                width: 180px;
+                height: 400px;
+                border-color:#B85DA6;
+                border-width: 5px;
+                border-style:groove;
+                background-color: #F2F2F2;
+            }
+            footer{
+                font-size: 18px;
+                text-align: center;
+                color: #B85DA6;
+                margin: 20px 10px 0px 10px;
+                
+            }
+        article{
+            display: flex;
+            flex-direction: column;
+            padding: 0vh;
+            justify-content:center ;
+        }
+        
+       }
