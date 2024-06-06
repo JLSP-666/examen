@@ -10,7 +10,7 @@
     }
     article{
         display: flex;
-        padding: 14vh;
+        padding:1vh;
         justify-content:center ;
         align-items: center;
         align-content: center;
@@ -24,8 +24,8 @@
         margin:auto;
     }
     #titulo{
-        font-size: 40px;
-        padding:10px;
+        font-size: 60px;
+        padding:10px 0px 0px 0px;
         color: #B85DA6;
     }
     #titulo-1{
@@ -38,7 +38,7 @@
         margin:25px;
     }
     #seccion-1{
-        margin: 0px 50px 0px 50px;
+        margin: 0px 20px 0px 20px;
         padding: 50px;
         width: 289px;
         height: 400px;
@@ -48,7 +48,7 @@
         background-color: #F2F2F2;
     }
     #seccion-2{
-        margin: 90px 50px 0px 50px;
+        margin: 300px 20px 10px 20px;
         padding: 50px;
         width: 289px;
         height: 400px;
